@@ -29,9 +29,32 @@ namespace _01._03
             ///<image url="$(ProjectDir)\img01.png"/>
 
             //INÍCIO DO CÓDIGO DO PRIMEIRO SISTEMA
+            var dados = ObterDados();
+            var xmlSerializer = new XmlSerializer(typeof(MovieStore));
+            using (var stringWriter = new StringWriter())
+            {
+                xmlSerializer.Serialize(stringWriter, dados);
+                Console.WriteLine(stringWriter);
+            }
 
+            using (var fileStream = new FileStream("MovieStore.xml", FileMode.Create, FileAccess.Write))
+            {
+                xmlSerializer.Serialize(fileStream, dados);
+            }
 
             //AQUI VEM O CÓDIGO DO SEGUNDO SISTEMA
+
+            var desSerializer = new XmlSerializer(typeof(MovieStore));
+            MovieStore movieStore;
+            using(var fStream = new FileStream("MovieStore.xml", FileMode.Open, FileAccess.Read))
+            {
+                movieStore = (MovieStore)desSerializer.Deserialize(fStream);
+                foreach (var item in movieStore.Movies)
+                {
+                    Console.WriteLine(item.Title);
+                }
+            }
+
 
             Console.ReadKey();
 

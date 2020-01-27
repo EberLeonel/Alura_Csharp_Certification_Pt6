@@ -664,30 +664,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marce\\.nuget\\packages\\": {},
+    "C:\\Users\\eber\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marce\\Documents\\GitHub\\certificacao-csharp-pt6\\02.05\\depois\\02.05.csproj",
+      "projectUniqueName": "C:\\Users\\eber\\Desktop\\Projetos\\Alura_Csharp_Certification_Pt6\\02.05\\depois\\02.05.csproj",
       "projectName": "02.05",
-      "projectPath": "C:\\Users\\marce\\Documents\\GitHub\\certificacao-csharp-pt6\\02.05\\depois\\02.05.csproj",
-      "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marce\\Documents\\GitHub\\certificacao-csharp-pt6\\02.05\\depois\\obj\\",
+      "projectPath": "C:\\Users\\eber\\Desktop\\Projetos\\Alura_Csharp_Certification_Pt6\\02.05\\depois\\02.05.csproj",
+      "packagesPath": "C:\\Users\\eber\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\eber\\Desktop\\Projetos\\Alura_Csharp_Certification_Pt6\\02.05\\depois\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\eber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\eber\\Downloads": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
